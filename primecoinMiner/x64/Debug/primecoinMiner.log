@@ -1,0 +1,638 @@
+﻿Build started 9/11/2013 11:01:58 PM.
+     1>Project "C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-rde\jhPrimeminer-master\src\primecoinMiner\primecoinMiner.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\includes\ /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt bn2.cpp bn2_div.cpp main.cpp miner.cpp prime.cpp jhlib\bmp.cpp jhlib\customBuffer.cpp jhlib\fastSorter.cpp jhlib\fastString.cpp jhlib\fastString_eprintf.cpp jhlib\fileMgr.cpp jhlib\fMath.cpp jhlib\hashTable_uint32.cpp jhlib\msgQueue.cpp jhlib\packetBuffer.cpp jhlib\perlinNoise.cpp jhlib\sData.cpp jhlib\simpleHTTP.cpp jhlib\simpleList.cpp jhlib\streamWrapper.cpp jhlib\tgaLib.cpp ripemd160.cpp sha256.cpp jsonBuilder.cpp jsonClient.cpp jsonObject.cpp jsonParser.cpp jsonrpc.cpp xptClient.cpp xptClientPacketHandler.cpp xptPacketbuffer.cpp xptServer.cpp xptServerPacketHandler.cpp
+         xptServerPacketHandler.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         xptServer.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         xptPacketbuffer.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         xptClientPacketHandler.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>xptClientPacketHandler.cpp(110): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\time.inl(86) : see declaration of 'ctime'
+         xptClient.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         jsonrpc.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         jsonParser.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         jsonObject.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         jsonClient.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>jsonClient.cpp(76): warning C4267: '=' : conversion from 'size_t' to 'unsigned char', possible loss of data
+     1>jsonClient.cpp(112): warning C4244: '=' : conversion from '__int64' to 'sint32', possible loss of data
+     1>jsonClient.cpp(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>jsonClient.cpp(150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>jsonClient.cpp(190): warning C4244: 'argument' : conversion from 'SOCKET' to 'int', possible loss of data
+         jsonBuilder.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         sha256.cpp
+         ripemd160.cpp
+         tgaLib.cpp
+         streamWrapper.cpp
+     1>jhlib\streamWrapper.cpp(687): warning C4018: '<' : signed/unsigned mismatch
+         simpleList.cpp
+     1>jhlib\simpleList.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>jhlib\simpleList.cpp(97): warning C4018: '<' : signed/unsigned mismatch
+     1>jhlib\simpleList.cpp(124): warning C4018: '<' : signed/unsigned mismatch
+     1>jhlib\simpleList.cpp(194): warning C4018: '<' : signed/unsigned mismatch
+     1>jhlib\simpleList.cpp(220): warning C4018: '<' : signed/unsigned mismatch
+     1>jhlib\simpleList.cpp(247): warning C4018: '<' : signed/unsigned mismatch
+         simpleHTTP.cpp
+         sData.cpp
+     1>jhlib\sData.cpp(122): warning C4267: 'initializing' : conversion from 'size_t' to 'sint32', possible loss of data
+     1>jhlib\sData.cpp(196): warning C4267: 'initializing' : conversion from 'size_t' to 'sint32', possible loss of data
+     1>jhlib\sData.cpp(228): warning C4267: 'initializing' : conversion from 'size_t' to 'sint32', possible loss of data
+     1>jhlib\sData.cpp(262): warning C4267: 'initializing' : conversion from 'size_t' to 'sint32', possible loss of data
+     1>jhlib\sData.cpp(266): warning C4267: 'initializing' : conversion from 'size_t' to 'sint32', possible loss of data
+         perlinNoise.cpp
+         packetBuffer.cpp
+         msgQueue.cpp
+         Generating Code...
+         Compiling...
+         hashTable_uint32.cpp
+         fMath.cpp
+         fileMgr.cpp
+         fastString_eprintf.cpp
+     1>jhlib\fastString_eprintf.cpp(277): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>jhlib\fastString_eprintf.cpp(548): warning C4244: 'argument' : conversion from 'sint64' to 'int', possible loss of data
+         fastString.cpp
+     1>jhlib\fastString.cpp(439): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+         fastSorter.cpp
+         customBuffer.cpp
+         bmp.cpp
+     1>jhlib\bmp.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>jhlib\bmp.cpp(126): warning C4018: '<' : signed/unsigned mismatch
+     1>jhlib\bmp.cpp(140): warning C4018: '<' : signed/unsigned mismatch
+         prime.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>prime.cpp(53): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>prime.cpp(193): warning C4244: 'initializing' : conversion from 'mpir_ui' to 'unsigned int', possible loss of data
+     1>prime.cpp(314): warning C4244: 'initializing' : conversion from 'mpir_ui' to 'unsigned int', possible loss of data
+     1>prime.cpp(390): warning C4244: 'initializing' : conversion from 'mpir_ui' to 'unsigned int', possible loss of data
+     1>prime.cpp(419): warning C4244: 'initializing' : conversion from 'mpir_ui' to 'unsigned int', possible loss of data
+     1>prime.cpp(465): warning C4244: 'initializing' : conversion from 'mpir_ui' to 'unsigned int', possible loss of data
+     1>prime.cpp(974): warning C4267: '=' : conversion from 'size_t' to 'sint32', possible loss of data
+     1>prime.cpp(986): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>prime.cpp(1036): warning C4244: 'return' : conversion from 'int64' to 'unsigned int', possible loss of data
+     1>prime.cpp(1211): warning C4244: '=' : conversion from 'mpir_ui' to 'unsigned long', possible loss of data
+     1>prime.cpp(1236): warning C4244: '=' : conversion from 'mpir_ui' to 'unsigned int', possible loss of data
+     1>prime.cpp(1240): warning C4244: '=' : conversion from 'mpir_ui' to 'unsigned int', possible loss of data
+     1>prime.cpp(1297): warning C4244: 'initializing' : conversion from 'double' to 'const unsigned int', possible loss of data
+         miner.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>miner.cpp(63): warning C4244: 'initializing' : conversion from 'time_t' to 'unsigned long', possible loss of data
+         main.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(49): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>main.cpp(143): warning C4267: '=' : conversion from 'size_t' to 'sint32', possible loss of data
+     1>main.cpp(221): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>main.cpp(254): warning C4267: 'initializing' : conversion from 'size_t' to 'sint32', possible loss of data
+     1>main.cpp(1003): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(1004): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(1018): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(1160): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+         bn2_div.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         bn2.cpp
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(143): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(148): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(155): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(199): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(204): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(226): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(231): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(254): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(259): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(272): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(280): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(289): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(351): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\bignum2.h(356): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1717): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1718): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1719): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1720): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1721): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1722): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1723): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(1724): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2132): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2133): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2134): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2135): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2137): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\mpirxx.h(2138): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(210): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\prime.h(281): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\global.h(77): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>bn2.cpp(124): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'DWORD', possible loss of data
+         Generating Code...
+     1>c:\users\aerocloud\downloads\jhprimeminer-master-rde\jhprimeminer-master-rde\jhprimeminer-master\src\primecoinminer\main.cpp(266): warning C4715: 'jhMiner_pushShare_primecoin' : not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\includes\ /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TC /errorReport:prompt includes\openssl\applink.c
+         applink.c
+     1>includes\openssl\applink.c(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>includes\openssl\applink.c(79): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(238) : see declaration of '_open'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-rde\jhPrimeminer-master\src\x64\Debug\jhPrimeminer.exe" /NOLOGO lib\openssl64\libeay32MT.lib lib\openssl64\ssleay32MT.lib lib\mpir\mpirxx.lib lib\mpir\mpir.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-rde\jhPrimeminer-master\src\x64\Debug\jhPrimeminer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-rde\jhPrimeminer-master\src\x64\Debug\jhPrimeminer.lib" /MACHINE:X64 x64\Debug\bn2.obj
+         x64\Debug\bn2_div.obj
+         x64\Debug\main.obj
+         x64\Debug\miner.obj
+         x64\Debug\prime.obj
+         x64\Debug\bmp.obj
+         x64\Debug\customBuffer.obj
+         x64\Debug\fastSorter.obj
+         x64\Debug\fastString.obj
+         x64\Debug\fastString_eprintf.obj
+         x64\Debug\fileMgr.obj
+         x64\Debug\fMath.obj
+         x64\Debug\hashTable_uint32.obj
+         x64\Debug\msgQueue.obj
+         x64\Debug\packetBuffer.obj
+         x64\Debug\perlinNoise.obj
+         x64\Debug\sData.obj
+         x64\Debug\simpleHTTP.obj
+         x64\Debug\simpleList.obj
+         x64\Debug\streamWrapper.obj
+         x64\Debug\tgaLib.obj
+         x64\Debug\ripemd160.obj
+         x64\Debug\sha256.obj
+         x64\Debug\applink.obj
+         x64\Debug\jsonBuilder.obj
+         x64\Debug\jsonClient.obj
+         x64\Debug\jsonObject.obj
+         x64\Debug\jsonParser.obj
+         x64\Debug\jsonrpc.obj
+         x64\Debug\xptClient.obj
+         x64\Debug\xptClientPacketHandler.obj
+         x64\Debug\xptPacketbuffer.obj
+         x64\Debug\xptServer.obj
+         x64\Debug\xptServerPacketHandler.obj
+            Creating library C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-rde\jhPrimeminer-master\src\x64\Debug\jhPrimeminer.lib and object C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-rde\jhPrimeminer-master\src\x64\Debug\jhPrimeminer.exp
+         primecoinMiner.vcxproj -> C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-rde\jhPrimeminer-master\src\x64\Debug\jhPrimeminer.exe
+     1>Done Building Project "C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-rde\jhPrimeminer-master\src\primecoinMiner\primecoinMiner.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:44.55

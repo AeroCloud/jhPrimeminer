@@ -1,0 +1,163 @@
+﻿Build started 9/12/2013 6:02:40 AM.
+     1>Project "C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-3.3\src\primecoinMiner\primecoinMiner.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-3.3\src\\bin\jhPrimeminer.exe" /NOLOGO lib\openssl\libeay32MT.lib lib\openssl\ssleay32MT.lib lib\mpir\mpirxx.lib lib\mpir\mpir.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-3.3\src\\bin\jhPrimeminer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-3.3\src\\bin\jhPrimeminer.lib" /MACHINE:X86 /SAFESEH Debug\bn2.obj
+         Debug\bn2_div.obj
+         Debug\main.obj
+         Debug\miner.obj
+         Debug\prime.obj
+         Debug\bmp.obj
+         Debug\customBuffer.obj
+         Debug\fastSorter.obj
+         Debug\fastString.obj
+         Debug\fastString_eprintf.obj
+         Debug\fileMgr.obj
+         Debug\fMath.obj
+         Debug\hashTable_uint32.obj
+         Debug\msgQueue.obj
+         Debug\packetBuffer.obj
+         Debug\perlinNoise.obj
+         Debug\sData.obj
+         Debug\simpleHTTP.obj
+         Debug\simpleList.obj
+         Debug\streamWrapper.obj
+         Debug\tgaLib.obj
+         Debug\ripemd160.obj
+         Debug\sha256.obj
+         Debug\applink.obj
+         Debug\jsonBuilder.obj
+         Debug\jsonClient.obj
+         Debug\jsonObject.obj
+         Debug\jsonParser.obj
+         Debug\jsonrpc.obj
+         Debug\xptClient.obj
+         Debug\xptClientPacketHandler.obj
+         Debug\xptPacketbuffer.obj
+         Debug\xptServer.obj
+         Debug\xptServerPacketHandler.obj
+     1>bn2.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-3.3\src\\bin\jhPrimeminer.lib and object C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-3.3\src\\bin\jhPrimeminer.exp
+     1>xptPacketbuffer.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>xptServer.obj : error LNK2019: unresolved external symbol ___gmpz_add_ui referenced in function "void __cdecl `dynamic initializer for 'bnPrimeMax''(void)" (??__EbnPrimeMax@@YAXXZ)
+     1>xptServerPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>jsonParser.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>jsonrpc.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>xptClient.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>xptClientPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>jsonBuilder.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>jsonClient.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>jsonObject.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>bn2.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>bn2_div.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>main.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>miner.obj : error LNK2001: unresolved external symbol ___gmpz_add_ui
+     1>xptPacketbuffer.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>xptServer.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>xptServerPacketHandler.obj : error LNK2019: unresolved external symbol ___gmpz_clear referenced in function "public: void __thiscall std::_Wrap_alloc<class std::allocator<char> >::construct<char *,char * &>(char * *,char * &)" (??$construct@PADAAPAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPADAAPAD@Z)
+     1>jsonParser.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>jsonrpc.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>xptClient.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>xptClientPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>jsonBuilder.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>jsonClient.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>jsonObject.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>bn2.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>bn2_div.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>main.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>miner.obj : error LNK2001: unresolved external symbol ___gmpz_clear
+     1>xptPacketbuffer.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>xptServer.obj : error LNK2019: unresolved external symbol ___gmpz_init referenced in function "void __cdecl `dynamic initializer for 'bnPrimeMin''(void)" (??__EbnPrimeMin@@YAXXZ)
+     1>xptServerPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>jsonParser.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>jsonrpc.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>xptClient.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>xptClientPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>jsonBuilder.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>jsonClient.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>jsonObject.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>bn2.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>bn2_div.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>main.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>miner.obj : error LNK2001: unresolved external symbol ___gmpz_init
+     1>xptPacketbuffer.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>xptServer.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>xptServerPacketHandler.obj : error LNK2019: unresolved external symbol ___gmpz_init_set_si referenced in function "public: void __thiscall std::allocator<struct std::_Container_proxy>::construct<struct std::_Container_proxy,struct std::_Container_proxy>(struct std::_Container_proxy *,struct std::_Container_proxy &&)" (??$construct@U_Container_proxy@std@@U12@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z)
+     1>jsonParser.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>jsonrpc.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>xptClient.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>xptClientPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>jsonBuilder.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>jsonClient.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>jsonObject.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>bn2.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>bn2_div.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>main.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>miner.obj : error LNK2001: unresolved external symbol ___gmpz_init_set_si
+     1>xptPacketbuffer.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>xptServer.obj : error LNK2019: unresolved external symbol ___gmpz_mul_2exp referenced in function "void __cdecl `dynamic initializer for 'mpzOne''(void)" (??__EmpzOne@@YAXXZ)
+     1>xptServerPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>jsonParser.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>jsonrpc.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>xptClient.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>xptClientPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>jsonBuilder.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>jsonClient.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>jsonObject.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>bn2.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>bn2_div.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>main.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>miner.obj : error LNK2001: unresolved external symbol ___gmpz_mul_2exp
+     1>xptPacketbuffer.obj : error LNK2019: unresolved external symbol ___gmpz_sub_ui referenced in function "class uint256 const __cdecl operator<<(class uint256 const &,unsigned int)" (??6@YA?BVuint256@@ABV0@I@Z)
+     1>xptServer.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>xptServerPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>jsonParser.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>jsonrpc.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>xptClient.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>xptClientPacketHandler.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>jsonBuilder.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>jsonClient.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>jsonObject.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>bn2.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>bn2_div.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>main.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>miner.obj : error LNK2001: unresolved external symbol ___gmpz_sub_ui
+     1>main.obj : error LNK2019: unresolved external symbol ___gmp_get_memory_functions referenced in function "public: __thiscall __gmp_alloc_cstring::~__gmp_alloc_cstring(void)" (??1__gmp_alloc_cstring@@QAE@XZ)
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmp_get_memory_functions
+     1>main.obj : error LNK2019: unresolved external symbol ___gmpz_get_str referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]>::get_str(int)const " (?get_str@?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_get_str
+     1>main.obj : error LNK2019: unresolved external symbol ___gmpz_set_si referenced in function "public: class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> & __thiscall __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]>::operator=(int)" (??4?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@QAEAAV0@H@Z)
+     1>miner.obj : error LNK2001: unresolved external symbol ___gmpz_set_si
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_set_si
+     1>miner.obj : error LNK2019: unresolved external symbol ___gmpz_cmp referenced in function "public: static bool __cdecl __gmp_binary_less::eval(struct __mpz_struct const *,struct __mpz_struct const *)" (?eval@__gmp_binary_less@@SA_NPBU__mpz_struct@@0@Z)
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_cmp
+     1>miner.obj : error LNK2019: unresolved external symbol ___gmpz_cmp_ui referenced in function "public: static bool __cdecl __gmp_binary_greater::eval(struct __mpz_struct const *,unsigned long)" (?eval@__gmp_binary_greater@@SA_NPBU__mpz_struct@@K@Z)
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_cmp_ui
+     1>miner.obj : error LNK2019: unresolved external symbol ___gmpz_divisible_ui_p referenced in function "bool __cdecl BitcoinMiner(struct primecoinBlock_t *,class CSieveOfEratosthenes * &,int)" (?BitcoinMiner@@YA_NPAUprimecoinBlock_t@@AAPAVCSieveOfEratosthenes@@H@Z)
+     1>miner.obj : error LNK2019: unresolved external symbol ___gmpz_import referenced in function "void __cdecl mpz_set_uint256(struct __mpz_struct * const,class uint256 &)" (?mpz_set_uint256@@YAXQAU__mpz_struct@@AAVuint256@@@Z)
+     1>miner.obj : error LNK2019: unresolved external symbol ___gmpz_mul_ui referenced in function "public: static void __cdecl __gmp_binary_multiplies::eval(struct __mpz_struct *,struct __mpz_struct const *,unsigned long)" (?eval@__gmp_binary_multiplies@@SAXPAU__mpz_struct@@PBU2@K@Z)
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_mul_ui
+     1>miner.obj : error LNK2019: unresolved external symbol ___gmpz_tdiv_q referenced in function "public: static void __cdecl __gmp_binary_divides::eval(struct __mpz_struct *,struct __mpz_struct const *,struct __mpz_struct const *)" (?eval@__gmp_binary_divides@@SAXPAU__mpz_struct@@PBU2@1@Z)
+     1>prime.obj : error LNK2001: unresolved external symbol ___gmpz_tdiv_q
+     1>miner.obj : error LNK2019: unresolved external symbol ___gmpz_tdiv_q_ui referenced in function "public: static void __cdecl __gmp_binary_divides::eval(struct __mpz_struct *,struct __mpz_struct const *,unsigned long)" (?eval@__gmp_binary_divides@@SAXPAU__mpz_struct@@PBU2@K@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_add referenced in function "public: static void __cdecl __gmp_binary_plus::eval(struct __mpz_struct *,struct __mpz_struct const *,struct __mpz_struct const *)" (?eval@__gmp_binary_plus@@SAXPAU__mpz_struct@@PBU2@1@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_init_set referenced in function "public: __thiscall __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]>::__gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]>(class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> const &)" (??0?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@QAE@ABV0@@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_mul referenced in function "bool __cdecl EulerLagrangeLifchitzPrimalityTest(class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> const &,bool,unsigned int &)" (?EulerLagrangeLifchitzPrimalityTest@@YA_NABV?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@_NAAI@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_mul_si referenced in function "public: static void __cdecl __gmp_binary_multiplies::eval(struct __mpz_struct *,struct __mpz_struct const *,long)" (?eval@__gmp_binary_multiplies@@SAXPAU__mpz_struct@@PBU2@J@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_powm referenced in function "bool __cdecl EulerLagrangeLifchitzPrimalityTest(class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> const &,bool,unsigned int &)" (?EulerLagrangeLifchitzPrimalityTest@@YA_NABV?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@_NAAI@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_set referenced in function "public: class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> & __thiscall __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]>::operator=(class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> const &)" (??4?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@QAEAAV0@ABV0@@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_sub referenced in function "bool __cdecl EulerLagrangeLifchitzPrimalityTest(class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> const &,bool,unsigned int &)" (?EulerLagrangeLifchitzPrimalityTest@@YA_NABV?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@_NAAI@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_tdiv_ui referenced in function "bool __cdecl EulerLagrangeLifchitzPrimalityTest(class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> const &,bool,unsigned int &)" (?EulerLagrangeLifchitzPrimalityTest@@YA_NABV?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@_NAAI@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_tdiv_q_2exp referenced in function "bool __cdecl EulerLagrangeLifchitzPrimalityTest(class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> const &,bool,unsigned int &)" (?EulerLagrangeLifchitzPrimalityTest@@YA_NABV?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@_NAAI@Z)
+     1>prime.obj : error LNK2019: unresolved external symbol ___gmpz_tdiv_r referenced in function "bool __cdecl EulerLagrangeLifchitzPrimalityTest(class __gmp_expr<struct __mpz_struct [1],struct __mpz_struct [1]> const &,bool,unsigned int &)" (?EulerLagrangeLifchitzPrimalityTest@@YA_NABV?$__gmp_expr@$$BY00U__mpz_struct@@$$BY00U1@@@_NAAI@Z)
+     1>C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-3.3\src\\bin\jhPrimeminer.exe : fatal error LNK1120: 26 unresolved externals
+     1>Done Building Project "C:\Users\AeroCloud\Downloads\jhPrimeminer-master-rde\jhPrimeminer-master-3.3\src\primecoinMiner\primecoinMiner.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.26
